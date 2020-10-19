@@ -1,5 +1,5 @@
 //function to count number of pairs of socks for every unique color.
-function sockStore(socksArray) {
+function countSocksPair(socksArray) {
   //Storing the count all socks in this javascript object.
   const socksHashMap = {};
   //variable to count total pairs
@@ -20,4 +20,4 @@ function sockStore(socksArray) {
 }
 
 const socksArray = [10, 10, 10, 10, 20, 30, 30, 30, 30, 30, 30, 30, 40, 40, 40, 40, 40];
-console.log(sockStore(socksArray)); //7
+console.log(countSocksPair(socksArray)); //7
